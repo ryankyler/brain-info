@@ -1,0 +1,26 @@
+body {
+	background-color: black;
+	color: white;
+	padding: 50px;
+	margin: 10px;
+}
+/* heading styles */
+h1 {
+	text-align: center;
+}
+/* unvisited link */
+a:link {
+	color: MediumSeaGreen;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+	color: DodgerBlue;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+	text-decoration: underline;
+}
