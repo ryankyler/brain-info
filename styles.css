@@ -29,9 +29,9 @@ a:hover {
 .first-ul {
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	padding: 8;
 	overflow: hidden;
-	background-color: darkslategrey;
+	background-color: #333;
 	float: left;
 }
 
@@ -41,4 +41,16 @@ a:hover {
 
 li {
 	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
 }
