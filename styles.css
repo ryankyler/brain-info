@@ -40,6 +40,7 @@ a:hover {
 }
 
 .menu {
+	float: left;
 	display: block;
 	color: white;
 	text-align: center;
