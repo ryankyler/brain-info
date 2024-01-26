@@ -25,10 +25,16 @@ a:hover {
 	text-decoration: underline;
 }
 
+/* navbar display*/
 .first-ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color:cadetblue
+	background-color: darkslategrey;
+	float: left;
+}
+
+.active {
+	background-color: grey
 }
