@@ -3,6 +3,7 @@ body {
 	color: white;
 	padding: 50px;
 	margin: 10px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 /* heading styles */
 h1 {
@@ -33,11 +34,6 @@ a:hover {
 	overflow: hidden;
 	background-color: #333;
 }
-
-.active {
-	background-color: grey
-}
-
 /* display for menu */
 li a {
 	float: left;
@@ -48,6 +44,18 @@ li a {
 	text-decoration: none;
 }
 
+/*list link color*/
+li a:link {
+	color: white
+}
+/*list link color after clicked*/
+li a:visited {
+	color: white;
+}
+/*list link color when hovering mouse over it*/
 li a:hover {
 	background-color: #111;
+	/*border-style: solid;
+	border-color: white;*/
+	text-decoration: none;
 }
